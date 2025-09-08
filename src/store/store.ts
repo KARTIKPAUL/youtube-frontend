@@ -26,7 +26,7 @@ const store = configureStore({
     sidebar: sidebarSlice,
     appLoading: appLoadingSlice,
   },
-  devTools: import.meta.env.VITE_REACT_APP_NODE_ENV === "development",
+  //devTools: import.meta.env.VITE_REACT_APP_NODE_ENV === "development",
 });
 
 export default store;
